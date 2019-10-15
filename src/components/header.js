@@ -1,11 +1,12 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import AuguryMark from "../assets/as-icon-large.svg"
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `black`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -16,19 +17,22 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <AuguryMark width="60" />
+      <div style={{
+        float: `right`,
+        color: `white`,
+        fontFamily: `Roboto`,
+        fontWeight: `Bold`,
+      }}
+      >
+        <h5>
+          Innovate Collaborate Connect
+        </h5>
+
+      </div>
+
     </div>
-  </header>
+  </header >
 )
 
 Header.propTypes = {

@@ -2,11 +2,17 @@ import React from "react";
 import Typist from 'react-typist';
 import styled from 'styled-components';
 import TypingTitleText from "./typingTitleText";
+import { Dimensions } from "react";
 
 const Div = styled.div`
-  margin: 50;
+  margin: 100px;
   border-color: #white;
-  border-width: 0px 1px 1px 0px;
+  @media (min-width: 600px){
+    border-width: 0px 1px 1px 0px;
+  };
+  @media (max-width: 600px){
+    border-width: 0px;
+  };
   border-style: solid;
   max-width: 1500px;
   max-height: 1000px;
@@ -42,11 +48,9 @@ const HomeSummaryBox = ({ className }) => (
     <SubTitle>
       Enabling Ability. Providing Possibility.
      </SubTitle>
-    <div>
-      <TagLineText>
-        The environment of innovation for business, life, work, and play
+    <TagLineText>
+      The environment of innovation for business, life, work, and play
      </TagLineText>
-    </div>
   </Div >
 )
 

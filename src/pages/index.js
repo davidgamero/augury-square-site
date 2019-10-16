@@ -8,12 +8,18 @@ import BackgroundImage from 'gatsby-background-image'
 import styled from 'styled-components'
 import HomeSummaryBox from "../components/homeSummaryBox";
 
+const Div = styled.div`
+  max-width: 1200px;
+  margin: auto;
+`;
+
 const BackgroundSection = ({ className }) =>
   (
-    <StaticQuery
-      query={graphql`
+    <Div>
+      <StaticQuery
+        query={graphql`
       query {
-        desktop: file(relativePath: { eq: "bg.png" }) {
+        desktop: file(relativePath: { eq: "bg-cropped.png" }) {
           childImageSharp {
             fluid(quality: 90, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
@@ -22,25 +28,26 @@ const BackgroundSection = ({ className }) =>
         }
       }
     `}
-      render={data => {
-        // Set ImageData.
-        const imageData = data.desktop.childImageSharp.fluid
-        return (
-          <BackgroundImage
-            Tag="section"
-            className={className}
-            fluid={imageData}
-            backgroundColor={`#000`}
-          >
-            <Layout>
-              <SEO title="Augury Square" />
-              <HomeSummaryBox />
+        render={data => {
+          // Set ImageData.
+          const imageData = data.desktop.childImageSharp.fluid
+          return (
+            <BackgroundImage
+              Tag="section"
+              className={className}
+              fluid={imageData}
+              backgroundColor={`#000`}
+            >
+              <Layout>
+                <SEO title="Augury Square" />
+                <HomeSummaryBox />
 
-            </Layout >
-          </BackgroundImage>
-        )
-      }}
-    />
+              </Layout >
+            </BackgroundImage>
+          )
+        }}
+      />
+    </Div>
   )
 
 const IndexPage = styled(BackgroundSection)`

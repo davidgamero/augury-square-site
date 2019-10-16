@@ -19,11 +19,10 @@ const Div = styled.div`
     border-width: 0px;
   };
   border-style: solid;
-  max-width: 1500px;
-  max-height: 1000px;
   margin-bottom: 1.45rem;
   color: white;
   padding: 20px;
+  height: auto;
 `;
 
 const SubTitle = styled.p`

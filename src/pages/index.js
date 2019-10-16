@@ -9,8 +9,8 @@ import styled from 'styled-components'
 import HomeSummaryBox from "../components/homeSummaryBox";
 
 const Div = styled.div`
-  max-width: 1200px;
   margin: auto;
+  height: 100%;
 `;
 
 const BackgroundSection = ({ className }) =>

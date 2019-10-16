@@ -2,6 +2,17 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import AuguryMark from "../assets/as-icon-large.svg"
+import styled from "styled-components"
+
+const Div = styled.div`
+@media (max-width: 600px){
+  margin: 20px 40px;
+};
+@media (min-width: 600px){
+  margin: 20px 100px;
+};
+padding: 0px 20px;
+`;
 
 const Header = ({ siteTitle }) => (
   <header
@@ -10,13 +21,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+    <Div>
       <AuguryMark width="60" />
       <div style={{
         float: `right`,
@@ -31,7 +36,7 @@ const Header = ({ siteTitle }) => (
 
       </div>
 
-    </div>
+    </Div>
   </header >
 )
 

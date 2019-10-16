@@ -5,7 +5,12 @@ import TypingTitleText from "./typingTitleText";
 import { Dimensions } from "react";
 
 const Div = styled.div`
-  margin: 100px;
+  @media (max-width: 600px){
+    margin: 40px;
+  };
+  @media (min-width: 600px){
+    margin: 100px;
+  };
   border-color: #white;
   @media (min-width: 600px){
     border-width: 0px 1px 1px 0px;

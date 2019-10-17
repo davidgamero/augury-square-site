@@ -5,7 +5,12 @@ import SequenceTyper from "./sequenceTyper";
 const Container = styled.div`
   align-ttems: left;
   display: inline-block;
-  padding-top: 100px;
+  @media (min-width: 600px){
+    padding-top: 100px;
+  };
+  @media (max-width: 600px){
+    padding-top: 0px;
+  };
 `;
 
 const Div = styled.div`

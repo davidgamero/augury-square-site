@@ -5,7 +5,7 @@ import { Link, StaticQuery } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import styled, { ThemeContext } from 'styled-components'
+import styled, { ThemeProvider } from 'styled-components'
 import HomeSummaryBox from "../components/homeSummaryBox";
 
 const Div = styled.div`
@@ -56,22 +56,23 @@ const H1 = styled.div`
 
 const InfoSection = ({ theme, className, title, subTitle, tagline }) => {
   return (
-    <Layout>
-      <SEO title={title} />
-      <Div>
-        <H1>
-          {title}
-        </H1>
-        <SubTitle>
-          {subTitle}
-        </SubTitle>
-        <TagLineText>
-          {tagline}
-        </TagLineText>
-      </Div >
-    </Layout >
+    <ThemeProvider theme={theme}>
+      <Layout>
+        <SEO title={title} />
+        <Div>
+          <H1>
+            {title}
+          </H1>
+          <SubTitle>
+            {subTitle}
+          </SubTitle>
+          <TagLineText>
+            {tagline}
+          </TagLineText>
+        </Div >
+      </Layout >
+    </ThemeProvider>
   )
 }
-
 
 export default InfoSection;

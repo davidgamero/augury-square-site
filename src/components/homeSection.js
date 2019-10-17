@@ -2,12 +2,12 @@ import React from "react"
 import { useContext } from 'react';
 import { Link, StaticQuery } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "./layout"
+import SEO from "./seo"
 import BackgroundImage from 'gatsby-background-image'
 
 import styled, { ThemeContext } from 'styled-components'
-import HomeSummaryBox from "../components/homeSummaryBox";
+import HomeSummaryBox from "./homeSummaryBox";
 
 const Home = ({ className }) => {
   const themeContext = useContext(ThemeContext);

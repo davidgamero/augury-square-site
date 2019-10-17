@@ -1,15 +1,10 @@
 import React from "react"
 
-import styled, { ThemeProvider } from 'styled-components'
+import { ThemeProvider } from 'styled-components'
 
 import ReactPageScroller from "react-page-scroller";
 import HomeSection from "../components/homeSection"
 import InfoSection from "../components/infoSection";
-
-const Div = styled.div`
-  margin: auto;
-  height: 100%;
-`;
 
 const lightTheme = {
   primary: "black",

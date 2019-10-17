@@ -1,12 +1,9 @@
 import React from "react"
-import { useContext } from 'react';
-import { Link, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import styled, { ThemeProvider } from 'styled-components'
-import HomeSummaryBox from "../components/homeSummaryBox";
 
 const Div = styled.div`
   @media (max-width: 600px){

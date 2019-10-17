@@ -1,6 +1,6 @@
 import React from "react"
 import { useContext } from 'react';
-import { Link, StaticQuery } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 
 import Layout from "./layout"
 import SEO from "./seo"

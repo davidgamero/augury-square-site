@@ -43,12 +43,17 @@ const TagLineText = styled.p`
 `;
 
 const H1 = styled.div`
-  font-size: 50px;
   font-family: Domine;
   font-weight: bold;
   display: inline;
   width: 100 %;
   line-height: 50px;
+  @media (min-width: 600px){
+    font-size: 50px;
+  };
+  @media (max-width: 600px){
+    font-size: 30px;
+  };
 `;
 
 const InfoSection = ({ theme, className, title, subTitle, tagline }) => {

@@ -27,7 +27,7 @@ const IndexPage = ({ className }) =>
       <ReactPageScroller>
         <HomeSection />
         <InfoSection
-          theme={darkTheme}
+          theme={lightTheme}
           title="Community"
           subTitle="A blockchain tokenized mixed-use real estate development"
           tagline="Developments include office and shared work and living spaces, innovation centers,  pioneering dining options and cafés,  entertainment and cinema, retail, healthy living options, parks and greenspace, and residential neighborhood." />

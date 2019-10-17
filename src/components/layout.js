@@ -14,7 +14,7 @@ import "./layout.css"
 import styled from "styled-components"
 
 const Div = styled.div`
-
+  background-color: ${props => props.theme.background};
 `;
 
 const Layout = ({ children }) => {

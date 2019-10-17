@@ -11,7 +11,7 @@ const Div = styled.div`
   @media (min-width: 600px){
     margin: 100px;
   };
-  border-color: #white;
+  border-color: ${props => props.theme.primary};
   @media (min-width: 600px){
     border-width: 0px 1px 1px 0px;
   };
@@ -20,9 +20,9 @@ const Div = styled.div`
   };
   border-style: solid;
   margin-bottom: 1.45rem;
-  color: white;
+  color: ${props => props.theme.primary};;
   padding: 20px;
-  height: auto;
+  height: 100%;
 `;
 
 const SubTitle = styled.p`
@@ -30,6 +30,7 @@ const SubTitle = styled.p`
   font-family: Roboto;
   font-size: 20px;
   letterSpacing: 1px;
+  color: ${props => props.theme.primary};
 `;
 
 const TagLineText = styled.p`
@@ -37,7 +38,7 @@ const TagLineText = styled.p`
   font-family: Roboto;
   font-size: 15px;
   letter-spacing: 1px;
-  color: white;
+  color: ${props => props.theme.primary};;
 `;
 
 const HomeSummaryBox = ({ className }) => (

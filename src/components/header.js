@@ -35,8 +35,8 @@ const Header = ({ siteTitle }) => {
         }}
         >
           <h5>
-            Innovate Collaborate Connect
-        </h5>
+
+          </h5>
 
         </div>
 

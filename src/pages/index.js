@@ -8,14 +8,14 @@ import light from "../themes/light"
 
 const IndexPage = ({ className }) =>
   (
-    <ReactPageScroller>
+    <div>
       <HomeSection />
       <InfoSection
         theme={light}
         title="Community"
         subTitle="A blockchain tokenized mixed-use real estate development"
         tagline="Developments include office and shared work and living spaces, innovation centers,  pioneering dining options and cafés,  entertainment and cinema, retail, healthy living options, parks and greenspace, and residential neighborhood." />
-    </ReactPageScroller >
+    </div >
   )
 
 export default IndexPage

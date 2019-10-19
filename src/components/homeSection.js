@@ -7,7 +7,7 @@ import SEO from "./seo"
 import BackgroundImage from 'gatsby-background-image'
 
 import styled, { ThemeContext } from 'styled-components'
-import HomeSummaryBox from "./homeSummaryBox";
+import HomeSummaryBox from "./homeSummaryBox"
 
 const Home = ({ className }) => {
   const themeContext = useContext(ThemeContext);

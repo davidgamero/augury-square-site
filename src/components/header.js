@@ -10,7 +10,7 @@ const Div = styled.div`
   padding: 20px 40px;
 };
 @media (min-width: 600px){
-  padding: 20px 100px;
+  padding: 30px 100px;
 };
 padding: 0px 20px;
 `;

@@ -1,6 +1,6 @@
-import React from "react";
-import styled from 'styled-components';
-import TypingTitleText from "./typingTitleText";
+import React from "react"
+import styled from 'styled-components'
+import TypingTitleText from "./typingTitleText"
 
 const Div = styled.div`
   @media (max-width: 600px){

@@ -1,6 +1,6 @@
 import React from "react";
-import styled from 'styled-components';
-import SequenceTyper from "./sequenceTyper";
+import styled from 'styled-components'
+import SequenceTyper from "./sequenceTyper"
 
 const Container = styled.div`
   align-ttems: left;

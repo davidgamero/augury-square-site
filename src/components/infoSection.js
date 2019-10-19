@@ -47,12 +47,12 @@ const H1 = styled.div`
   font-weight: bold;
   display: inline;
   width: 100 %;
-  line-height: 50px;
+  line-height: 3rem;
   @media (min-width: 600px){
-    font-size: 50px;
+    font-size: 3rem;
   };
   @media (max-width: 600px){
-    font-size: 30px;
+    font-size: 2rem;
   };
 `;
 

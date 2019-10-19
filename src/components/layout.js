@@ -14,7 +14,7 @@ import "./layout.css"
 import styled from "styled-components"
 
 const Div = styled.div`
-  background-color: ${props => props.theme.background};
+  height: 100vh;
 `;
 
 const Layout = ({ children }) => {
@@ -30,8 +30,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
       <Div>
+        <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
         <footer>
 

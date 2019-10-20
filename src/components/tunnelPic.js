@@ -6,7 +6,6 @@ import { StaticQuery, graphql } from "gatsby"
 import styled, { ThemeProvider } from 'styled-components'
 
 import Img from "gatsby-image"
-import { innovator } from "./ImageQueries"
 
 const TextDiv = styled.div`
   @media (max-width: 600px){

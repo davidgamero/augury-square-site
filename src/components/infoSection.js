@@ -8,9 +8,11 @@ import styled, { ThemeProvider } from 'styled-components'
 const Div = styled.div`
   @media (max-width: 600px){
     margin: 40px;
+    height: auto;
   };
   @media (min-width: 600px){
     margin: 100px;
+    height: 100%
   };
   border-color: ${props => props.theme.primary};
   @media (min-width: 600px){
@@ -23,7 +25,6 @@ const Div = styled.div`
   margin-bottom: 1.45rem;
   color: ${props => props.theme.primary};;
   padding: 20px;
-  height: 100%;
 `;
 
 const SubTitle = styled.p`

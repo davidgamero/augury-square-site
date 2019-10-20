@@ -1,14 +1,14 @@
 import React from "react"
 
-import { ThemeProvider } from 'styled-components'
 import ReactPageScroller from "react-page-scroller"
 import HomeSection from "../components/homeSection"
 import InfoSection from "../components/infoSection"
 import light from "../themes/light"
-import Layout from "../components/layout"
+import dark from "../themes/dark"
 import SplitSection1 from "../components/splitSection1"
 import TunnelPic from "../components/tunnelPic"
 import SplitSection2 from "../components/splitSection2"
+import BannerSection from "../components/bannerSection"
 
 const IndexPage = ({ className }) => {
   return (
@@ -30,6 +30,10 @@ const IndexPage = ({ className }) => {
         title="Collaborative at the Core"
         subTitle="Environments are only as amazing as the individuals inside them. Individuals of Augury Square encompass a wide array of unique qualities. They understand that great products start with people more than just top tier professionals, a diverse assortment of innovative minds enabling amazing ideas to impact everyone."
       />
+      <BannerSection
+        theme={dark}
+        title="Mission:"
+        subTitle="Unleash full potential of people through an interactive approach to living, working and technology." />
     </div >
   )
 }

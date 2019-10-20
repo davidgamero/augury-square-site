@@ -8,7 +8,7 @@ import { H1, SubTitle } from "./split2"
 const TextDiv = styled.div`
   @media (max-width: 600px){
     padding: 5vh 10vh;
-    height: 60%
+    height: auto
   };
   @media (min-width: 600px){
     display: inline-block;
@@ -22,7 +22,7 @@ const TextDiv = styled.div`
 
 const ImgDiv = styled.div`
   @media (max-width: 600px){
-    height: 40%
+    height: 40vh
   };
   @media (min-width: 600px){
     display: inline-block;
@@ -30,12 +30,17 @@ const ImgDiv = styled.div`
     width: 50%;
     height: 100%;
   };
-  color: ${props => props.theme.primary};;
+  color: ${props => props.theme.primary};
   
 `;
 
 const Container = styled.div`
-  height: 100vh;
+  @media (max-width: 600px){
+    height: auto
+  };
+  @media (min-width: 600px){
+    height: 100vh;
+  };
   width: auto;
 `;
 

@@ -10,15 +10,16 @@ import Img from "gatsby-image"
 const TextDiv = styled.div`
   @media (max-width: 600px){
     padding: 5vh 0vh;
+    height: auto
   };
   @media (min-width: 600px){
     display: inline-block;
     padding: 4vh 4vh;
     vertical-align: top;
     width: 50%;
+    height: 100%;
   };
   color: ${props => props.theme.primary};;
-  height: 100%;
 `;
 
 const ImgDiv = styled.div`
@@ -61,7 +62,12 @@ const H1 = styled.div`
 `;
 
 const Container = styled.div`
-  height: 100vh;
+  @media (max-width: 600px){
+    height: auto
+  };
+  @media (min-width: 600px){
+    height: 100vh;
+  };
   padding: 10% 8vh;
   width: auto;
 `;

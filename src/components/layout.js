@@ -14,7 +14,7 @@ import "./layout.css"
 import styled from "styled-components"
 
 const Div = styled.div`
-  height: 100vh;
+ height: 100vh;
 `;
 
 const Layout = ({ children }) => {
@@ -29,15 +29,14 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <Div>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <main>{children}</main>
-        <footer>
 
-        </footer>
-      </Div>
-    </>
+    <Div>
+      <Header siteTitle={data.site.siteMetadata.title} />
+      <main>{children}</main>
+      <footer>
+
+      </footer>
+    </Div>
   )
 }
 

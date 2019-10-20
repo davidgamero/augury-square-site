@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => {
     <header
       style={{
         background: themeContext.background,
-        marginBottom: `1.45rem`,
+
       }}
     >
       <Div>

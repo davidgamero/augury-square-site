@@ -9,6 +9,10 @@ import BackgroundImage from 'gatsby-background-image'
 import styled, { ThemeContext } from 'styled-components'
 import HomeSummaryBox from "./homeSummaryBox"
 
+const Div = styled.div`
+  height: 100vh;
+`
+
 const Home = ({ className }) => {
   const themeContext = useContext(ThemeContext);
 
@@ -16,7 +20,7 @@ const Home = ({ className }) => {
     <StaticQuery
       query={graphql`
       query {
-        desktop: file(relativePath: { eq: "bg-cropped.png" }) {
+        file(relativePath: { eq: "bg-cropped.png" }) {
           childImageSharp {
             fluid(quality: 100) {
               ...GatsbyImageSharpFluid_withWebp
@@ -27,20 +31,22 @@ const Home = ({ className }) => {
     `}
       render={data => {
         // Set ImageData.
-        const imageData = data.desktop.childImageSharp.fluid
+        const imageData = data.file.childImageSharp.fluid
         return (
-          <BackgroundImage
-            Tag="section"
-            className={className}
-            fluid={imageData}
-            backgroundColor={themeContext.background}
-          >
-            <Layout>
-              <SEO title="Augury Square" />
-              <HomeSummaryBox />
+          <Div>
+            <BackgroundImage
+              Tag="section"
+              className={className}
+              fluid={imageData}
+              backgroundColor={themeContext.background}>
+              <Layout>
+                <SEO title="Augury Square" />
+                <HomeSummaryBox />
 
-            </Layout >
-          </BackgroundImage>
+              </Layout>
+            </BackgroundImage>
+          </Div>
+
         )
       }}
     />

@@ -3,16 +3,30 @@ import styled, { ThemeProvider } from 'styled-components'
 
 const TextDiv = styled.div`
   @media (max-width: 600px){
-    padding: 40px 20px;
+    padding: 5vh 5vh;
+    height: auto
   };
   @media (min-width: 600px){
     display: inline-block;
-    padding: 4vh 4vh;
-    vertical-align: top;
+    padding: 25vh 10vh;
+    vertical-align: center;
     width: 50%;
+    height: 100%;
   };
   color: ${props => props.theme.primary};;
-  height: 100%;
+`;
+
+const ImgDiv = styled.div`
+  @media (max-width: 600px){
+    height: 40vh
+  };
+  @media (min-width: 600px){
+    display: inline-block;
+    vertical-align:top;
+    width: 50%;
+    height: 100%;
+  };
+  color: ${props => props.theme.primary};
 `;
 
 const SubTitle = styled.p`
@@ -34,26 +48,20 @@ const H1 = styled.div`
 `;
 
 const Container = styled.div`
-  height: 100vh;
-  padding: 10% 8vh;
+  background-color: ${props => props.theme.background};
+  @media(max-width: 600px) {
+    height: auto
+  };
+  @media(min-width: 600px) {
+    height: 100vh;
+  };
   width: auto;
-`;
-
-const Split2TextDiv = (props) => {
-  return (
-    <TextDiv>
-      <H1>
-        {props.title}
-      </H1>
-      <SubTitle>
-        {props.subTitle}
-      </SubTitle>
-    </TextDiv>
-  )
-}
+  `;
 
 export {
-  Split2TextDiv,
+  TextDiv,
+  ImgDiv,
   H1,
-  SubTitle
+  SubTitle,
+  Container
 }

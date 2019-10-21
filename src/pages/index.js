@@ -9,6 +9,7 @@ import SplitSection1 from "../components/splitSection1"
 import TunnelPic from "../components/tunnelPic"
 import SplitSection2 from "../components/splitSection2"
 import BannerSection from "../components/bannerSection"
+import SplitSection3 from "../components/splitSection3"
 
 const IndexPage = ({ className }) => {
   return (
@@ -33,7 +34,18 @@ const IndexPage = ({ className }) => {
       <BannerSection
         theme={dark}
         title="Mission:"
-        subTitle="Unleash full potential of people through an interactive approach to living, working and technology." />
+        subTitle="Unleash full potential of people through an interactive approach to living, working and technology."
+      />
+      <SplitSection3
+        theme={light}
+        title="Human-centered innovation relevant to your lifestyle"
+        subTitle="Innovation isn’t only for enterprise, it’s for people too. A human-centered approach to lifestyle makes for a truly unforgettable living experienc, making everyday amazing for the people you love. Augury Square accelerates you to achieve your goals, forming a launchpad for your creativity."
+      />
+      <BannerSection
+        theme={dark}
+        title="About"
+        subTitle="Augury Square is about collaborating through a culture complimentary to your skillsets, interest and expertise connected in a community of doers."
+      />
     </div >
   )
 }

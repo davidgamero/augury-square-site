@@ -4,12 +4,12 @@ import styled, { ThemeProvider } from 'styled-components'
 import Img from "gatsby-image"
 import { H1, SubTitle, TextDiv, ImgDiv, Container } from "./split"
 
-const SplitSection2 = ({ theme, className, title, subTitle }) => {
+const SplitSection3 = ({ theme, className, title, subTitle }) => {
   return (
     <StaticQuery
       query={graphql`
       query {
-        innovator: file(relativePath: { eq: "mouse.jpg" }) {
+        innovator: file(relativePath: { eq: "lifestyle.jpg" }) {
           childImageSharp {
             fluid(quality: 100) {
               ...GatsbyImageSharpFluid_withWebp
@@ -24,6 +24,11 @@ const SplitSection2 = ({ theme, className, title, subTitle }) => {
         return (
           <ThemeProvider theme={theme}>
             <Container>
+              <ImgDiv>
+                <Img fluid={imageData}
+                  objectFit="contain"
+                  style={{ height: '100%' }} />
+              </ImgDiv>
               <TextDiv>
                 <H1>
                   {title}
@@ -32,11 +37,6 @@ const SplitSection2 = ({ theme, className, title, subTitle }) => {
                   {subTitle}
                 </SubTitle>
               </TextDiv>
-              <ImgDiv>
-                <Img fluid={imageData}
-                  objectFit="contain"
-                  style={{ height: '100%' }} />
-              </ImgDiv>
             </Container>
           </ThemeProvider >
         )
@@ -46,4 +46,4 @@ const SplitSection2 = ({ theme, className, title, subTitle }) => {
 
 }
 
-export default SplitSection2;
+export default SplitSection3;

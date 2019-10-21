@@ -4,7 +4,7 @@ import TypingTitleText from "./typingTitleText"
 
 const Div = styled.div`
   @media (max-width: 600px){
-    margin: 40px;
+    margin: 10vh 5vh;
   };
   @media (min-width: 600px){
     margin: 100px;

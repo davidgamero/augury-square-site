@@ -18,7 +18,6 @@ const SubTitle = styled.h1`
   font-family: Roboto;
   font-size: 1rem;
   letter-spacing: 0.1rem;
-  text-align: justify;
 `;
 
 const BannerSection = ({ theme, title, subTitle }) => {

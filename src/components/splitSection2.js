@@ -2,7 +2,7 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import styled, { ThemeProvider } from 'styled-components'
 import Img from "gatsby-image"
-import { H1, SubTitle } from "./split2"
+import { H1, SubTitle } from "./split"
 
 
 const TextDiv = styled.div`

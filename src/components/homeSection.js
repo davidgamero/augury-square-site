@@ -10,7 +10,12 @@ import styled, { ThemeContext } from 'styled-components'
 import HomeSummaryBox from "./homeSummaryBox"
 
 const Div = styled.div`
+@media (min-width: 600px){
   height: 100vh;
+};
+@media (max-width: 600px){
+  height: auto;
+};
 `
 
 const Home = ({ className }) => {

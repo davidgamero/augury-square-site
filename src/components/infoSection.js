@@ -7,7 +7,7 @@ import styled, { ThemeProvider } from 'styled-components'
 
 const Div = styled.div`
   @media (max-width: 600px){
-    margin: 40px;
+    margin: 30px;
     height: auto;
   };
   @media (min-width: 600px){
@@ -15,13 +15,6 @@ const Div = styled.div`
     height: 100%
   };
   border-color: ${props => props.theme.primary};
-  @media (min-width: 600px){
-    border-width: 0px 1px 1px 0px;
-  };
-  @media (max-width: 600px){
-    border-width: 0px;
-  };
-  border-style: solid;
   margin-bottom: 1.45rem;
   color: ${props => props.theme.primary};;
   padding: 20px;
@@ -33,10 +26,16 @@ const SubTitle = styled.p`
   font-size: 20px;
   letterSpacing: 1px;
   color: ${props => props.theme.primary};
+  line-height: 2rem;
 `;
 
 const TagLineText = styled.p`
-  margin-top: 100px;
+  @media (min-width: 600px){
+    margin-top: 100px;
+  };
+  @media (max-width: 600px){
+    margin-top: 10vh;
+  };
   font-family: Roboto;
   font-size: 15px;
   letter-spacing: 1px;
@@ -48,32 +47,31 @@ const H1 = styled.div`
   font-weight: bold;
   display: inline;
   width: 100 %;
-  line-height: 3rem;
   @media (min-width: 600px){
     font-size: 3rem;
+    line-height: 4rem;
   };
   @media (max-width: 600px){
     font-size: 2rem;
+    line-height: 3rem;
   };
 `;
 
 const InfoSection = ({ theme, className, title, subTitle, tagline }) => {
   return (
     <ThemeProvider theme={theme}>
-      <Layout>
-        <SEO title={title} />
-        <Div>
-          <H1>
-            {title}
-          </H1>
-          <SubTitle>
-            {subTitle}
-          </SubTitle>
-          <TagLineText>
-            {tagline}
-          </TagLineText>
-        </Div >
-      </Layout >
+      <SEO title={title} />
+      <Div>
+        <H1>
+          {title}
+        </H1>
+        <SubTitle>
+          {subTitle}
+        </SubTitle>
+        <TagLineText>
+          {tagline}
+        </TagLineText>
+      </Div >
     </ThemeProvider>
   )
 }

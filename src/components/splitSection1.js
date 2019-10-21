@@ -24,7 +24,7 @@ const TextDiv = styled.div`
 
 const ImgDiv = styled.div`
   @media (max-width: 600px){
-    height: 50%
+    height: 50%;
   };
   @media (min-width: 600px){
     display: inline-block;
@@ -51,14 +51,8 @@ const H1 = styled.div`
   font-weight: bold;
   display: inline;
   width: 100 %;
-  @media (min-width: 600px){
-    font-size: 1.5rem;
-    line-height: 3rem;
-  };
-  @media (max-width: 600px){
-    font-size: 1rem;
-    line-height: 1.5rem;
-  };
+  font-size: 1.5rem;
+  line-height: 3rem;
 `;
 
 const Container = styled.div`

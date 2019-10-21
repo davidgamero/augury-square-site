@@ -21,7 +21,6 @@ const SubTitle = styled.p`
   font-size: 1rem;
   line-height: 2rem;
   letterSpacing: 1px;
-  text-align: justify;
   color: ${props => props.theme.primary};
 `;
 
@@ -30,14 +29,8 @@ const H1 = styled.div`
   font-weight: bold;
   display: inline;
   width: 100 %;
-  @media (min-width: 600px){
-    font-size: 1.5rem;
-    line-height: 3rem;
-  };
-  @media (max-width: 600px){
-    font-size: 1rem;
-    line-height: 1.5rem;
-  };
+  font-size: 1.5rem;
+  line-height: 3rem;
 `;
 
 const Container = styled.div`

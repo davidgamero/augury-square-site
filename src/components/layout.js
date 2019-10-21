@@ -14,7 +14,12 @@ import "./layout.css"
 import styled from "styled-components"
 
 const Div = styled.div`
- height: 100vh;
+@media (min-width: 600px){
+  height: 100vh;
+};
+@media (max-width: 600px){
+  height: auto;
+};
 `;
 
 const Layout = ({ children }) => {

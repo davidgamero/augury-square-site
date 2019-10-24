@@ -7,7 +7,7 @@ const Div = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 50px;
+  padding: 0 10%;
 `
 const H1 = styled.h1`
   font-size: 64px;

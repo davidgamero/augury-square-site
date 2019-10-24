@@ -18,6 +18,7 @@ import HumanCentered from './split-img-left/HumanCentered'
 import Economics from './Economics'
 import TestingGround from './TestingGround'
 import Forefront from './Forefront'
+import Team from './team/Team'
 
 const Div = styled.div`
 @media (min-width: 600px){
@@ -111,6 +112,8 @@ const Home = ({ className }) => {
                 <TestingGround />
 
                 <Forefront />
+
+                <Team />
 
               </Layout>
             </BackgroundImage>

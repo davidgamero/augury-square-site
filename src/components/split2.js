@@ -39,15 +39,19 @@ const SubTitle = styled.p`
   line-height: 2rem;
   letterSpacing: 1px;
   color: black;
+  ${props => props.css && props.css}
 `;
 
 const H1 = styled.div`
   font-family: Domine;
-  font-weight: bold;
+  font-weight: 500;
   display: inline;
   width: 100%;
-  font-size: 1.5rem;
-  line-height: 3rem;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  color: black;
+  /* flexible css override option */
+  ${props => props.css && props.css}
 `;
 
 const Container = styled.div`

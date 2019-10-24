@@ -4,6 +4,10 @@ import styled, { ThemeProvider } from 'styled-components'
 import Img from "gatsby-image"
 import { H1, SubTitle, TextDiv, ImgDiv, Container } from "../split2"
 
+const H1Div = styled.div`
+  text-align: right;
+`
+
 const Collaborative = ({ theme, className, title, subTitle }) => {
   return (
     <StaticQuery
@@ -25,11 +29,11 @@ const Collaborative = ({ theme, className, title, subTitle }) => {
           <ThemeProvider theme={theme}>
             <Container>
               <TextDiv>
-                <H1>
-                  {title}
+                <H1 css={`text-align: right; font-size: 4rem;`}>
+                  <div>{title}</div>
                 </H1>
-                <SubTitle>
-                  {subTitle}
+                <SubTitle css={`text-align: right; font-size: 1.25rem;`}>
+                  <div>{subTitle}</div>
                 </SubTitle>
               </TextDiv>
               <ImgDiv>

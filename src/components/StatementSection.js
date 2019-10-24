@@ -16,6 +16,11 @@ const H1 = styled.h1`
 const P = styled.p`
   font-size: 24px;
   color: white;
+  
+  @media (max-width: 425px) {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
 `
 
 export default function StatementSection({ title, subTitle }) {

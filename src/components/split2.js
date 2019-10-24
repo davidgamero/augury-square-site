@@ -40,6 +40,10 @@ const SubTitle = styled.p`
   letterSpacing: 1px;
   color: black;
   ${props => props.css && props.css}
+  @media (max-width: 425px) {
+    font-size: .9rem;
+    line-height: 1.8rem;
+  }
 `;
 
 const H1 = styled.div`
@@ -52,6 +56,10 @@ const H1 = styled.div`
   color: black;
   /* flexible css override option */
   ${props => props.css && props.css}
+  @media (max-width: 425px) {
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+  }
 `;
 
 const Container = styled.div`

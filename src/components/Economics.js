@@ -1,6 +1,4 @@
 import React from "react"
-
-import Layout from "./layout"
 import { StaticQuery, graphql } from "gatsby"
 
 import styled, { ThemeProvider } from 'styled-components'
@@ -46,6 +44,11 @@ const SubTitle = styled.p`
   /* overwriting because i don't know the theming stuff */
   color: ${props => props.theme.primary};
   color: black;
+
+  @media (max-width: 425px) {
+    font-size: .75rem;
+    line-height: 1.25rem;
+  }
 `;
 
 const H1 = styled.div`
@@ -56,6 +59,10 @@ const H1 = styled.div`
   font-size: 3.5rem;
   line-height: 4.5rem;
   color: black;
+  @media (max-width: 425px) {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
 `;
 
 const Container = styled.div`

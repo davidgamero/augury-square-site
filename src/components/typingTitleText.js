@@ -24,6 +24,9 @@ const H1 = styled.div`
   display: inline;
   width: 100 %;
   line-height: 50px;
+  @media (max-width: 425px) {
+    font-size: 29px;
+  }
 `;
 
 const TypingTitleText = ({ className, prefixText, typingTextSequence }) => (

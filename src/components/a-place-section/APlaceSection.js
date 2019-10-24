@@ -28,6 +28,11 @@ const HeaderTxt = styled.h1`
   font-size: 3.5rem;
   line-height: 4.5rem;
   font-weight: 500;
+
+  @media (max-width: 425px) {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
 `
 // emulating split2.js SubTitle var
 const SubTxt = styled.div`
@@ -37,6 +42,11 @@ const SubTxt = styled.div`
   line-height: 2rem;
   letterSpacing: 1px;
   color: black;
+
+  @media (max-width: 425px) {
+    font-size: .75rem;
+    line-height: 1.25rem;
+  }
 `
 
 export default function APlaceSection() {

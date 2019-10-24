@@ -29,6 +29,10 @@ const SubTitle = styled.p`
   font-size: 20px;
   letterSpacing: 1px;
   color: ${props => props.theme.primary};
+
+  @media (max-width: 425px) {
+    font-size: 15px;
+  }
 `;
 
 const TagLineText = styled.p`

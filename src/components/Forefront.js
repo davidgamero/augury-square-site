@@ -8,17 +8,25 @@ const Div = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+`
+
+const H1 = styled.h1`
+  font-size: 68px;
+  color: white;
+
+  @media (max-width: 425px) {
+    font-size: 4rem;
+  }
 `
 
 const H3 = styled.h3`
   font-size: 30px;
   color: white;
   font-weight: 500;
-`
-
-const H1 = styled.h1`
-  font-size: 68px;
-  color: white;
+  @media (max-width: 425px) {
+    font-size: 1.5rem;
+  }
 `
 
 export default function Forefront() {

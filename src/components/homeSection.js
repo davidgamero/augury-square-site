@@ -8,6 +8,8 @@ import BackgroundImage from 'gatsby-background-image'
 
 import styled, { ThemeContext } from 'styled-components'
 import HomeSummaryBox from "./homeSummaryBox"
+
+import APlaceSection from './a-place-section/APlaceSection'
 import SplitSection1 from "./splitSection1";
 
 const Div = styled.div`
@@ -49,7 +51,8 @@ const Home = ({ className }) => {
                 <SEO title="Augury Square" />
                 <HomeSummaryBox />
 
-                {/* Could probably put the rest of the app here but keeping it in layouts for now */}
+                <APlaceSection />
+
                 <SplitSection1 
                   theme={themeContext}
                   title="The environment for innovators"

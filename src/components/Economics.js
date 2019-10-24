@@ -13,13 +13,13 @@ const TextDiv = styled.div`
     height: auto
   };
   @media (min-width: 600px){
-    display: inline-block;
-    padding: 4vh 4vh;
-    vertical-align: top;
     width: 50%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
   };
-  color: ${props => props.theme.primary};;
+  color: ${props => props.theme.primary};
 `;
 
 const ImgDiv = styled.div`
@@ -50,11 +50,11 @@ const SubTitle = styled.p`
 
 const H1 = styled.div`
   font-family: Domine;
-  font-weight: bold;
+  font-weight: 500;
   display: inline;
-  width: 100 %;
-  font-size: 1.5rem;
-  line-height: 3rem;
+  width: 100%;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
   color: black;
 `;
 
@@ -64,12 +64,14 @@ const Container = styled.div`
   };
   @media (min-width: 600px){
     height: 100vh;
+    display: flex;
   };
   padding: 10% 8vh;
   width: auto;
 `;
 
-const Economics = ({ theme, className, title, subTitle }) => {
+const SplitSection1 = ({ theme, className, title, subTitle }) => {
+  console.log('Theme is: ', theme)
   return (
     <StaticQuery
       query={graphql`
@@ -111,4 +113,4 @@ const Economics = ({ theme, className, title, subTitle }) => {
 
 }
 
-export default Economics;
+export default SplitSection1;

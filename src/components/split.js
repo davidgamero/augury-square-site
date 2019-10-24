@@ -42,7 +42,7 @@ const H1 = styled.div`
   font-family: Domine;
   font-weight: bold;
   display: inline;
-  width: 100 %;
+  width: 100%;
   font-size: 1.5rem;
   line-height: 3rem;
 `;

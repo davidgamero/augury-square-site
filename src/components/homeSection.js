@@ -19,7 +19,6 @@ import Economics from './Economics'
 import ImageSection from './imageSection'
 import TestingGround from './TestingGround'
 import Forefront from './Forefront'
-import Team from './team/Team'
 
 const Div = styled.div`
 @media (min-width: 600px){

@@ -56,15 +56,19 @@ const Home = ({ className }) => {
               className={className}
               fluid={imageData}
               backgroundColor={themeContext.background}>
+
               <Layout>
                 <SEO title="Augury Square" />
                 <HomeSummaryBox />
+              </Layout>
 
+            </BackgroundImage>
               {/* 
                 This should be in the index page section, 
                 which is where the theme context should be passed down.
                 but this works for now.  
               */}
+
                 <APlaceSection />
 
                 <SplitSection1 
@@ -118,8 +122,6 @@ const Home = ({ className }) => {
                 {/* Having trouble finding a programmatic way to load the images */}
                 {/* <Team /> */}
 
-              </Layout>
-            </BackgroundImage>
           </Div>
 
         )

@@ -43,7 +43,9 @@ const SubTitle = styled.p`
   line-height: 2rem;
   letterSpacing: 1px;
   text-align: justify;
+  /* overwriting because i don't know the theming stuff */
   color: ${props => props.theme.primary};
+  color: black;
 `;
 
 const H1 = styled.div`
@@ -53,6 +55,7 @@ const H1 = styled.div`
   width: 100 %;
   font-size: 1.5rem;
   line-height: 3rem;
+  color: black;
 `;
 
 const Container = styled.div`
@@ -67,6 +70,7 @@ const Container = styled.div`
 `;
 
 const SplitSection1 = ({ theme, className, title, subTitle }) => {
+  console.log('Theme is: ', theme)
   return (
     <StaticQuery
       query={graphql`

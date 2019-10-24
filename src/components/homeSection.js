@@ -13,7 +13,7 @@ import APlaceSection from './a-place-section/APlaceSection'
 import SplitSection1 from './splitSection1'
 import TunnelPic from './TunnelPic'
 import Collaborative from './split-img-right/Collaborative'
-import Mission from './Mission'
+import StatementSection from './StatementSection'
 import HumanCentered from './split-img-left/HumanCentered'
 
 const Div = styled.div`
@@ -76,12 +76,27 @@ const Home = ({ className }) => {
                   subTitle="Enviornments are only as amazing as the individuals inside them. Individuals of Augury Square  encompase a wide array of unique qualities. They understand that great products start with people, more than just top tier professionals, a diverse assortment of innovative minds enabling amazing ideas to impact everyone together."
                 />
 
-                <Mission />
+                <StatementSection
+                  title="Mission"
+                  subTitle="Unleash full potential of people through an interactive approach to living, working, technology."
+                />
 
                 <HumanCentered 
                   theme={themeContext}
                   title="Human centered innovation relevant to your lifestyle"
                   subTitle="Innovation isn’t only for enterprise. It’s for people to. A human centered approach to lifestyle makes for a living experience truly unforgettable making everyday amazing for you and your peers. Augury Square accelerates you to gain your goals helping you achieve them making your neighborhood a launcpad for your life."
+                />
+
+                <StatementSection 
+                  title="About"
+                  subTitle="Augury Square is about collaborating through a culture, complimentary to your skillsets, interest and expertise connected by a community of doers."
+                />
+
+                {/* Insert image section here */}
+
+                <StatementSection
+                  title="Goal"
+                  subTitle="Augury Square’s aims to bring individuals full circle. From personal to professional provide the catalyst for the most innovative minds to make most out of life every step of the way."
                 />
 
               </Layout>

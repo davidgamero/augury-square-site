@@ -37,7 +37,7 @@ const Container = styled.div`
   width: auto;
 `;
 
-const TunnelPic = (props) => {
+const deskPic = (props) => {
   return (
     <StaticQuery
       query={graphql`

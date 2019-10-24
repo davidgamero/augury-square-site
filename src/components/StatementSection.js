@@ -18,11 +18,11 @@ const P = styled.p`
   color: white;
 `
 
-export default function Mission() {
+export default function StatementSection({ title, subTitle }) {
   return (
     <Div>
-      <H1>Mission:</H1>
-      <P>Unleash full potential of people through an interactive approach to living, working, technology.</P>
+      <H1>{title}:</H1>
+      <P>{subTitle}</P>
     </Div>
   )
 }

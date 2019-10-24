@@ -9,7 +9,7 @@ import SplitSection1 from "../components/splitSection1"
 import TunnelPic from "../components/tunnelPic"
 import SplitSection2 from "../components/splitSection2"
 import BannerSection from "../components/bannerSection"
-import SplitSection3 from "../components/splitSection3"
+import SplitSection3 from "../components/split-left/HumanCentered"
 
 const IndexPage = ({ className }) => {
   return (

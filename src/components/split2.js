@@ -1,5 +1,8 @@
+/**
+ * Reverse of split.js, for the white background + black text sections
+ */
 import React from 'react'
-import styled, { ThemeProvider } from 'styled-components'
+import styled from 'styled-components'
 
 const TextDiv = styled.div`
   @media (max-width: 600px){
@@ -13,7 +16,7 @@ const TextDiv = styled.div`
     width: 50%;
     height: 100%;
   };
-  color: ${props => props.theme.primary};
+  color: black;
 `;
 
 const ImgDiv = styled.div`
@@ -35,7 +38,7 @@ const SubTitle = styled.p`
   font-size: 1rem;
   line-height: 2rem;
   letterSpacing: 1px;
-  color: ${props => props.theme.primary};
+  color: black;
 `;
 
 const H1 = styled.div`
@@ -48,7 +51,7 @@ const H1 = styled.div`
 `;
 
 const Container = styled.div`
-  background-color: ${props => props.theme.background};
+  background-color: white;
   @media(max-width: 600px) {
     height: auto
   };

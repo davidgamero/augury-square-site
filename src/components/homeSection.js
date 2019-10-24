@@ -15,6 +15,9 @@ import TunnelPic from './TunnelPic'
 import Collaborative from './split-img-right/Collaborative'
 import StatementSection from './StatementSection'
 import HumanCentered from './split-img-left/HumanCentered'
+import Economics from './Economics'
+import TestingGround from './TestingGround'
+import Forefront from './Forefront'
 
 const Div = styled.div`
 @media (min-width: 600px){
@@ -98,6 +101,16 @@ const Home = ({ className }) => {
                   title="Goal"
                   subTitle="Augury Square’s aims to bring individuals full circle. From personal to professional provide the catalyst for the most innovative minds to make most out of life every step of the way."
                 />
+
+                <Economics 
+                  theme={themeContext}
+                  title="Economics of interacting"
+                  subTitle="Augury encourages Interacting with individuals, to collaborate wih the people in the community. Our tokenized enviornment allows you to redeem value relevant to you for communicating, connecting and collaborating. Spend your tokens on business, work life or play."
+                />
+
+                <TestingGround />
+
+                <Forefront />
 
               </Layout>
             </BackgroundImage>

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import TeamMember from './TeamMember'
 
 const Div = styled.div`
   padding: 0 50px;
@@ -54,11 +55,28 @@ export default function Team() {
       </Header>
 
       <Row>
-        <Img>hi</Img>
+        <Img>
+          <TeamMember member="suresh" />
+        </Img>
         <Bio>
           <BioHeader>
             <H2>Suresh Sharma</H2>
             <H5>CEO</H5>
+          </BioHeader>
+          <BioDescription>
+            <H3>{PLACEHOLDER}</H3>
+          </BioDescription>
+        </Bio>
+      </Row>
+
+      <Row>
+        <Img>
+          <TeamMember member="jae" />
+        </Img>
+        <Bio>
+          <BioHeader>
+            <H2>Jae Kim</H2>
+            <H5>President</H5>
           </BioHeader>
           <BioDescription>
             <H3>{PLACEHOLDER}</H3>

@@ -7,7 +7,7 @@ const Div = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 50px;
+  padding: 0 10%;
 
 /* this will layer over the image */
   background-color: white;
@@ -18,13 +18,23 @@ const TxtDiv = styled.div`
   border-bottom: solid .5px rgba(0, 0, 0, 0.5);
 `
 const HeaderDiv = styled.div`
-  width: 50%;
+  width: 75%;
 `
+// this is emulating split2.js H1 var
 const HeaderTxt = styled.h1`
-  font-size: 48px;
+  font-family: Domine;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  font-weight: 500;
 `
+// emulating split2.js SubTitle var
 const SubTxt = styled.div`
-  font-size: 20px;
+  margin-top: 15px;
+  font-family: Roboto;
+  font-size: 1rem;
+  line-height: 2rem;
+  letterSpacing: 1px;
+  color: black;
 `
 
 export default function APlaceSection() {

@@ -11,7 +11,7 @@ import HomeSummaryBox from "./homeSummaryBox"
 
 import APlaceSection from './a-place-section/APlaceSection'
 import SplitSection1 from './splitSection1'
-import TunnelPic from './TunnelPic'
+import TunnelPic from './tunnelPic'
 import Collaborative from './split-img-right/Collaborative'
 import StatementSection from './StatementSection'
 import HumanCentered from './split-img-left/HumanCentered'

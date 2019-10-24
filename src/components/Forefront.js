@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Div = styled.div`
-  height: 50vh;
+  height: 70vh;
   background-color: black;
   padding-left: 50px;
   display: flex;

@@ -16,6 +16,7 @@ import Collaborative from './split-img-right/Collaborative'
 import StatementSection from './StatementSection'
 import HumanCentered from './split-img-left/HumanCentered'
 import Economics from './Economics'
+import ImageSection from './imageSection'
 import TestingGround from './TestingGround'
 import Forefront from './Forefront'
 import Team from './team/Team'
@@ -97,6 +98,7 @@ const Home = ({ className }) => {
                 />
 
                 {/* Insert image section here */}
+                <ImageSection />
 
                 <StatementSection
                   title="Goal"

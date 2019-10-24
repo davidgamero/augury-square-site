@@ -4,9 +4,6 @@ import styled from 'styled-components'
 const Div = styled.div`
   height: 50vh;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 0 10%;
 
 /* this will layer over the image */
@@ -14,8 +11,13 @@ const Div = styled.div`
 `
 
 const TxtDiv = styled.div`
+  height: 100%;
   width: 100%;
-  border-bottom: solid .5px rgba(0, 0, 0, 0.5);
+  border-bottom: solid .5px rgba(0, 0, 0, 0.8);
+/* need the txtDiv to expand full height, yet keep content within it centered */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `
 const HeaderDiv = styled.div`
   width: 75%;
@@ -41,11 +43,13 @@ export default function APlaceSection() {
   return (
     <Div>
       <TxtDiv>
-        <HeaderDiv>
-          <HeaderTxt>A place unlike anywhere you've built before...</HeaderTxt>
-        </HeaderDiv>
-        <SubTxt>
-          Augury Square is a tokenized, mixed-use real estate development, 30 ares in size with shared workspaces, offices, retail, park and residential use, providing state of the art technologies including Blockchain, IOT and AI for the community of entrepreneurs, developers, enthusiasts and users to apply and build in a seamlessly integrated lifestyle        </SubTxt>
+        <div>
+          <HeaderDiv>
+            <HeaderTxt>A place unlike anywhere you've built before...</HeaderTxt>
+          </HeaderDiv>
+          <SubTxt>
+            Augury Square is a tokenized, mixed-use real estate development, 30 ares in size with shared workspaces, offices, retail, park and residential use, providing state of the art technologies including Blockchain, IOT and AI for the community of entrepreneurs, developers, enthusiasts and users to apply and build in a seamlessly integrated lifestyle        </SubTxt>
+        </div>
       </TxtDiv>
     </Div>
   )

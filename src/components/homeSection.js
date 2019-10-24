@@ -115,7 +115,8 @@ const Home = ({ className }) => {
 
                 <Forefront />
 
-                <Team />
+                {/* Having trouble finding a programmatic way to load the images */}
+                {/* <Team /> */}
 
               </Layout>
             </BackgroundImage>

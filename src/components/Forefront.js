@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Div = styled.div`
   height: 70vh;
   background-color: black;
-  padding-left: 50px;
+  padding-left: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;

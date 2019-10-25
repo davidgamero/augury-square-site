@@ -41,17 +41,13 @@ const HeaderTxt = styled.h1`
 `
 // emulating split2.js SubTitle var
 const SubTxt = styled.div`
-  margin-top: 15px;
+  margin-top: 4vh;
   font-family: Roboto;
   font-size: 1rem;
   line-height: 2rem;
   letterSpacing: 1px;
   color: black;
 
-  @media (max-width: 425px) {
-    
-    line-height: 1.25rem;
-  }
 `
 
 export default function APlaceSection() {

@@ -2,9 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Div = styled.div`
-  height: 70vh;
   background-color: black;
-  padding-left: 10%;
+  padding: 10vh 6vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +15,7 @@ const H1 = styled.h1`
   color: white;
 
   @media (max-width: 425px) {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 `
 

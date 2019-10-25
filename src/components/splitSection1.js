@@ -46,11 +46,6 @@ const SubTitle = styled.p`
   /* overwriting because i don't know the theming stuff */
   color: ${props => props.theme.primary};
   color: black;
-  
-  @media (max-width: 425px) {
-    font-size: .75rem;
-    line-height: 1.25rem;
-  }
 `;
 
 const H1 = styled.div`

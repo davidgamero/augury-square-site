@@ -40,15 +40,9 @@ const SubTitle = styled.p`
   font-size: 1rem;
   line-height: 2rem;
   letterSpacing: 1px;
-  text-align: justify;
   /* overwriting because i don't know the theming stuff */
   color: ${props => props.theme.primary};
   color: black;
-
-  @media (max-width: 425px) {
-    font-size: .75rem;
-    line-height: 1.25rem;
-  }
 `;
 
 const H1 = styled.div`

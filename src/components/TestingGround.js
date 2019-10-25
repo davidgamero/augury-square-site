@@ -2,9 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Div = styled.div`
-  height: 50vh;
+  @media (max-width: 600px){
+    height: auto
+  };
   width: 100%;
-  padding: 0 10%;
 
 /* this will layer over the image */
   background-color: white;
@@ -18,6 +19,7 @@ const TxtDiv = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 10% 8vh;
 `
 const HeaderDiv = styled.div`
   width: 75%;
@@ -44,8 +46,6 @@ const SubTxt = styled.div`
   color: black;
 
   @media (max-width: 425px) {
-    font-size: .75rem;
-    line-height: 1.25rem;
   }
 `
 

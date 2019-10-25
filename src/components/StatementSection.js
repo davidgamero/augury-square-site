@@ -6,13 +6,9 @@ const Div = styled.div`
   @media (max-width: 425px) {
     font-size: 1.3rem;
     line-height: 2rem;
-    height: auto;
-    padding: 10vh 6vh;
   }
-  @media (min-wdth: 425px) {
-    height: 50vh;
-    padding: 0 10%;
-  }
+  height: auto;
+  padding: 10vh 6vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

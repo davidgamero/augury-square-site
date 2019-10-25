@@ -41,7 +41,6 @@ const SubTitle = styled.p`
   color: black;
   ${props => props.css && props.css}
   @media (max-width: 425px) {
-    font-size: .9rem;
     line-height: 1.8rem;
   }
 `;

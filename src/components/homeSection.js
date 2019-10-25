@@ -73,7 +73,7 @@ const Home = ({ className }) => {
             <SplitSection1
               theme={themeContext}
               title="The environment for innovators"
-              subTitle="The Augury Square is a community where innovators collaborate and connect solutions that matter to the masses. A next generation business hub and incubator that accelerates ideas into existance. Augury Square automates all of the day to day tasks and todos allowing you focus on what maters most."
+              subTitle="The Augury Square is a community where innovators collaborate and connect solutions that matter to the masses. A next-generation business hub and incubator that accelerates ideas into existance. Augury Square automates all of the day to day tasks and todos allowing you focus on what matters most."
             />
 
             <TunnelPic />
@@ -81,7 +81,7 @@ const Home = ({ className }) => {
             <Collaborative
               theme={themeContext}
               title="Collaborative at the core"
-              subTitle="Enviornments are only as amazing as the individuals inside them. Individuals of Augury Square  encompase a wide array of unique qualities. They understand that great products start with people, more than just top tier professionals, a diverse assortment of innovative minds enabling amazing ideas to impact everyone together."
+              subTitle="Environments are only as amazing as the individuals inside them. Individuals of Augury Square encompass a wide array of unique qualities. They understand that great products start with people, more than just top-tier professionals, a diverse assortment of innovative minds enabling amazing ideas to impact everyone together."
             />
 
             <StatementSection
@@ -92,12 +92,12 @@ const Home = ({ className }) => {
             <HumanCentered
               theme={themeContext}
               title="Human centered innovation relevant to your lifestyle"
-              subTitle="Innovation isn’t only for enterprise. It’s for people to. A human centered approach to lifestyle makes for a living experience truly unforgettable making everyday amazing for you and your peers. Augury Square accelerates you to gain your goals helping you achieve them making your neighborhood a launcpad for your life."
+              subTitle="Innovation isn’t only for enterprise. It’s for people too. A human-centered approach to lifestyle makes for a truly unforgettable living experience making every day amazing for you and your peers. Augury Square accelerates you to achieve your goals, making your neighborhood a launchpad for your life."
             />
 
             <StatementSection
               title="About"
-              subTitle="Augury Square is about collaborating through a culture, complimentary to your skillsets, interest and expertise connected by a community of doers."
+              subTitle="Augury Square is about collaborating through a culture, complimentary to your skillset, interest and expertise connected by a community of doers."
             />
 
             {/* Insert image section here */}
@@ -105,13 +105,13 @@ const Home = ({ className }) => {
 
             <StatementSection
               title="Goal"
-              subTitle="Augury Square’s aims to bring individuals full circle. From personal to professional provide the catalyst for the most innovative minds to make most out of life every step of the way."
+              subTitle="Augury Square aims to bring individuals full circle. From personal to professional, providing the catalyst for innovative minds to make most out of life every step of the way."
             />
 
             <Economics
               theme={themeContext}
               title="Economics of interacting"
-              subTitle="Augury encourages Interacting with individuals, to collaborate wih the people in the community. Our tokenized enviornment allows you to redeem value relevant to you for communicating, connecting and collaborating. Spend your tokens on business, work life or play."
+              subTitle="Augury encourages interacting with individuals and collaborating with people in the community. Our tokenized environment allows you to redeem value relevant to you for communicating, connecting and collaborating. Spend your tokens on business, work, life or play."
             />
 
             <TestingGround />

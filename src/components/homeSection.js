@@ -19,6 +19,7 @@ import Economics from './Economics'
 import ImageSection from './imageSection'
 import TestingGround from './TestingGround'
 import Forefront from './Forefront'
+import Team from './team/Team'
 
 const Div = styled.div`
 @media (min-width: 600px){
@@ -119,7 +120,7 @@ const Home = ({ className }) => {
             <Forefront />
 
             {/* Having trouble finding a programmatic way to load the images */}
-            {/* <Team /> */}
+            <Team />
 
           </Div>
 

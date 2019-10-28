@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import content from './content'
 
 const Div = styled.div`
-  padding: 0 50px;
+  padding: 0 20vh;
   @media (max-width: 425px) {
     padding: 0 20px;
   }
@@ -11,7 +11,7 @@ const Div = styled.div`
 
 const Header = styled.div`
   padding-top: 100px;
-  margin: 0 50px;
+  margin: 0 5vh;
   bottom-border: solid 1px rgba(0, 0, 0, 0.5);
   @media (max-width: 425px) {
     margin: 0;
@@ -55,9 +55,10 @@ const Row = styled.div`
   display: flex;
 `
 const Img = styled.div`
+ width: 30%;
   @media (max-width: 425px) {
     width: 40%;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
   }
@@ -91,7 +92,7 @@ export default function Team() {
     <Div>
       <Header>
         <H1>Team</H1>
-        <H3>A team of industry experts innovative from an assortment of expertise.</H3>
+        <H3>The hand-picked industry experts and seasoned entrepeneurs bringing Augury Square to life</H3>
       </Header>
       {content.map(TeamMember)}
     </Div>
@@ -110,8 +111,9 @@ const BioH5 = styled(H5)`
   }
 `
 const BioH3 = styled(H3)`
+  font-size: 1rem;
+  line-height: 2rem;
   @media (max-width: 425px) {
-    font-size: .8rem;
     line-height: 1rem;
   }
 `
@@ -125,19 +127,19 @@ const TeamMember = ({
   imgPath,
   bio
 }) => (
-  <Row>
-    <Img>
-      {/* <TeamMember member="suresh" /> */}
-      <BioImg src={imgPath} />
-    </Img>
-    <Bio>
-      <BioHeader>
-        <BioH2>{name}</BioH2>
-        <BioH5>{title}</BioH5>
-      </BioHeader>
-      <BioDescription>
-        <BioH3>{bio}</BioH3>
-      </BioDescription>
-    </Bio>
-  </Row>
-)
+    <Row>
+      <Img>
+        {/* <TeamMember member="suresh" /> */}
+        <BioImg src={imgPath} />
+      </Img>
+      <Bio>
+        <BioHeader>
+          <BioH2>{name}</BioH2>
+          <BioH5>{title}</BioH5>
+        </BioHeader>
+        <BioDescription>
+          <BioH3>{bio}</BioH3>
+        </BioDescription>
+      </Bio>
+    </Row>
+  )

@@ -20,6 +20,7 @@ import ImageSection from './imageSection'
 import TestingGround from './TestingGround'
 import Forefront from './Forefront'
 import Team from './team/Team'
+import Typeform from './Typeform'
 
 const Div = styled.div`
 @media (min-width: 600px){
@@ -121,6 +122,8 @@ const Home = ({ className }) => {
 
             {/* Having trouble finding a programmatic way to load the images */}
             <Team />
+
+            <Typeform />
 
           </Div>
 

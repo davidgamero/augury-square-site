@@ -13,6 +13,9 @@ const Header = styled.div`
   padding-top: 100px;
   margin: 0 50px;
   bottom-border: solid 1px rgba(0, 0, 0, 0.5);
+  @media (max-width: 425px) {
+    margin: 0;
+  }
 `
 
 const H1 = styled.h1`
@@ -90,9 +93,7 @@ export default function Team() {
         <H1>Team</H1>
         <H3>A team of industry experts innovative from an assortment of expertise.</H3>
       </Header>
-
       {content.map(TeamMember)}
-
     </Div>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import content from './content'
+import { teamRows, partners, advisors, experts } from './content'
 
 const Div = styled.div`
   padding: 0 20vh;
@@ -94,7 +94,24 @@ export default function Team() {
         <H1>Team</H1>
         <H3>The hand-picked industry experts and seasoned entrepeneurs bringing Augury Square to life</H3>
       </Header>
-      {content.map(TeamMember)}
+      {teamRows.map(TeamMember)}
+
+      <Header>
+        <H1>Partners</H1>
+      </Header> 
+      {partners.map(TeamMember)}
+
+      <Header>
+        <H1>Advisors</H1>
+      </Header>
+      {advisors.map(TeamMember)}
+
+      <Header>
+        <H1>Industry Experts</H1>
+      </Header>
+      {experts.map(TeamMember)}
+
+      <div style={{ paddingTop: '100px'}}>&nbsp;</div>
     </Div>
   )
 }

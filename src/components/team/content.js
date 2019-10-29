@@ -40,4 +40,79 @@ const teamRows = [
   },
 ]
 
-export default teamRows
+const partners = [
+  {
+    name: 'Pietro Doran',
+    title: 'Tech Lead',
+    imgPath: require('../../images/team/pietro.jpg'),
+    bio: PLACEHOLDER
+  },
+
+  {
+    name: 'Gab Sung Kim',
+    title: 'Tech Lead',
+    imgPath: require('../../images/team/gab.jpg'),
+    bio: PLACEHOLDER
+  },
+]
+
+const advisors = [
+  {
+    name: 'Diego Gutierrez',
+    title: 'Tech Lead',
+    imgPath: require('../../images/team/diego.jpg'),
+    bio: PLACEHOLDER
+  },
+  {
+    name: 'Thomas Schwartz',
+    title: 'Tech Lead',
+    imgPath: require('../../images/team/thomas.jpg'),
+    bio: PLACEHOLDER
+  },
+  {
+    name: 'Jim Whitcomb',
+    title: 'Tech Lead',
+    imgPath: require('../../images/team/jim.jpg'),
+    bio: PLACEHOLDER
+  },
+  {
+    name: 'Aniket Maindarkar',
+    title: 'Tech Lead',
+    imgPath: require('../../images/team/aniket.jpg'),
+    bio: PLACEHOLDER
+  },
+  {
+    name: 'Brent Reid',
+    title: 'Tech Lead',
+    imgPath: require('../../images/team/brent.jpg'),
+    bio: PLACEHOLDER
+  },
+  {
+    name: 'Austin Mills',
+    title: 'Tech Lead',
+    imgPath: require('../../images/team/austin.jpg'),
+    bio: PLACEHOLDER
+  },
+]
+
+const experts = [
+  {
+    name: 'Jorden Woods',
+    title: 'Tech Lead',
+    imgPath: require('../../images/team/jorden.jpg'),
+    bio: PLACEHOLDER
+  }, 
+  {
+    name: 'Radhika Iyengar-emens',
+    title: 'Tech Lead',
+    imgPath: require('../../images/team/radhika.jpg'),
+    bio: PLACEHOLDER
+  }, 
+]
+
+export {
+  teamRows,
+  partners,
+  advisors,
+  experts
+}

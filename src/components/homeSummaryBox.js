@@ -50,7 +50,7 @@ const HomeSummaryBox = ({ className }) => (
       typingTextSequence={['Doers', 'Coders', 'Makers', 'Writers', 'Innovators']} />
 
     <SubTitle>
-      A thirty-acre, blockchain-backed, mixed-use development for technology tastemakers, innovative enthusiants, and enterprise-leading experts.
+      A thirty-acre, blockchain-backed, mixed-use development for technology tastemakers, innovative enthusiasts, and enterprise-leading experts.
     </SubTitle>
     <SubTitle>
       Enabling Ability. Providing Possibility.

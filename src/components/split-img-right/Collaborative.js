@@ -29,7 +29,7 @@ const Collaborative = ({ theme, className, title, subTitle }) => {
           <ThemeProvider theme={theme}>
             <Container>
               <TextDiv>
-                <H1 css={`text-align: right; font-size: 4rem;`}>
+                <H1 css={`text-align: right;`}>
                   <div>{title}</div>
                 </H1>
                 <SubTitle css={`text-align: right; font-size: 1.25rem;`}>

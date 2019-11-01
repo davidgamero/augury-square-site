@@ -18,15 +18,12 @@ const Div = styled.div`
 `;
 
 const H1 = styled.div`
-  font-size: 50px;
+  font-size: 3rem;
   font-family: Domine;
   font-weight: bold;
   display: inline;
   width: 100 %;
   line-height: 50px;
-  @media (max-width: 425px) {
-    font-size: 29px;
-  }
 `;
 
 const TypingTitleText = ({ className, prefixText, typingTextSequence }) => (

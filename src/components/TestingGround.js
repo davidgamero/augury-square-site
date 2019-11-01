@@ -51,16 +51,16 @@ const SubTxt = styled.div`
 
 
 
-export default function APlaceSection() {
+export default function APlaceSection({ title, text }) {
   return (
     <Div>
       <TxtDiv>
         <div>
           <HeaderDiv>
-            <HeaderTxt>The testing ground for future</HeaderTxt>
+            <HeaderTxt>{title}</HeaderTxt>
           </HeaderDiv>
           <SubTxt>
-            Ideas are great, but when do they become real? When you make them. Augury Square equips innovators, doers and makers of all kinds with amenities they need get stuff done. Making the ability to build, operate and test all kinds of innovation. Our futuristic sandbox approach allows you to pilot your project turning dreams into deliverables.
+            {text}
           </SubTxt>
         </div>
       </TxtDiv>

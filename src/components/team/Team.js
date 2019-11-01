@@ -91,14 +91,14 @@ export default function Team() {
   return (
     <Div>
       <Header>
-        <H1>Team</H1>
+        <H1>Management and Operations</H1>
         <H3>The hand-picked industry experts and seasoned entrepeneurs bringing Augury Square to life</H3>
       </Header>
       {teamRows.map(TeamMember)}
 
       <Header>
         <H1>Partners</H1>
-      </Header> 
+      </Header>
       {partners.map(TeamMember)}
 
       <Header>
@@ -111,7 +111,7 @@ export default function Team() {
       </Header>
       {experts.map(TeamMember)}
 
-      <div style={{ paddingTop: '100px'}}>&nbsp;</div>
+      <div style={{ paddingTop: '100px' }}>&nbsp;</div>
     </Div>
   )
 }

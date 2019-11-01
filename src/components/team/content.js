@@ -34,7 +34,7 @@ const teamRows = [
 
   {
     name: 'Don Chambers',
-    title: 'Innovation',
+    title: 'Director - Innovation Process',
     imgPath: require('../../images/team/don.jpg'),
     bio: PLACEHOLDER
   },
@@ -101,13 +101,13 @@ const experts = [
     title: 'Tech Lead',
     imgPath: require('../../images/team/jorden.jpg'),
     bio: PLACEHOLDER
-  }, 
+  },
   {
     name: 'Radhika Iyengar-emens',
     title: 'Tech Lead',
     imgPath: require('../../images/team/radhika.jpg'),
     bio: PLACEHOLDER
-  }, 
+  },
 ]
 
 export {

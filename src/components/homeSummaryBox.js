@@ -43,18 +43,18 @@ const TagLineText = styled.p`
   color: ${props => props.theme.primary};;
 `;
 
-const HomeSummaryBox = ({ className }) => (
+const HomeSummaryBox = ({ className, subTitle1, subTitle2 }) => (
   <Div>
     <TypingTitleText
       prefixText="Prefix "
       typingTextSequence={['Doers', 'Coders', 'Makers', 'Writers', 'Innovators']} />
 
     <SubTitle>
-      A thirty-acre, blockchain-backed, mixed-use development for technology tastemakers, innovative enthusiasts, and enterprise-leading experts.
+      {subTitle1}
     </SubTitle>
     <SubTitle>
-      Enabling Ability. Providing Possibility.
-     </SubTitle>
+      {subTitle2}
+    </SubTitle>
     <TagLineText>
       The environment of innovation for business, life, work, and play
      </TagLineText>

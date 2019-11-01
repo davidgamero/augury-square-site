@@ -50,16 +50,16 @@ const SubTxt = styled.div`
 
 `
 
-export default function APlaceSection() {
+export default function APlaceSection({ title, text }) {
   return (
     <Div>
       <TxtDiv>
         <div>
           <HeaderDiv>
-            <HeaderTxt>A place unlike anywhere you've built before...</HeaderTxt>
+            <HeaderTxt>{title}</HeaderTxt>
           </HeaderDiv>
           <SubTxt>
-            Augury Square is a tokenized, mixed-use real estate development, 30 ares in size with shared workspaces, offices, retail, park and residential use, providing state of the art technologies including Blockchain, IOT and AI for the community of entrepreneurs, developers, enthusiasts and users to apply and build in a seamlessly integrated lifestyle
+            {text}
           </SubTxt>
         </div>
       </TxtDiv>

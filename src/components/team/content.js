@@ -10,32 +10,28 @@ const teamRows = [
     imgPath: require('../../images/team/suresh.jpg'),
     bio: PLACEHOLDER
   },
-
   {
     name: 'Jae Kim',
     title: 'President',
     imgPath: require('../../images/team/jae.jpg'),
     bio: PLACEHOLDER
   },
-
+  {
+    name: 'Don Chambers',
+    title: 'Director - Innovation Process',
+    imgPath: require('../../images/team/don.jpg'),
+    bio: PLACEHOLDER
+  },
   {
     name: 'Blake Jackovitch',
     title: 'Creative Lead',
     imgPath: require('../../images/team/blake.jpg'),
     bio: PLACEHOLDER
   },
-
   {
     name: 'David Gamero',
-    title: 'Tech Lead',
+    title: 'Tech/Blockchain Lead',
     imgPath: require('../../images/team/david.jpg'),
-    bio: PLACEHOLDER
-  },
-
-  {
-    name: 'Don Chambers',
-    title: 'Director - Innovation Process',
-    imgPath: require('../../images/team/don.jpg'),
     bio: PLACEHOLDER
   },
 ]
@@ -43,14 +39,14 @@ const teamRows = [
 const partners = [
   {
     name: 'Pietro Doran',
-    title: 'Tech Lead',
+    title: 'CEO Hancom/DreamTec',
     imgPath: require('../../images/team/pietro.jpg'),
     bio: PLACEHOLDER
   },
 
   {
-    name: 'Gab Sung Kim',
-    title: 'Tech Lead',
+    name: 'Dr. Gab Sung Kim',
+    title: 'Yonsei University (S. Korea)',
     imgPath: require('../../images/team/gab.jpg'),
     bio: PLACEHOLDER
   },
@@ -58,53 +54,53 @@ const partners = [
 
 const advisors = [
   {
-    name: 'Diego Gutierrez',
-    title: 'Tech Lead',
-    imgPath: require('../../images/team/diego.jpg'),
-    bio: PLACEHOLDER
-  },
-  {
-    name: 'Thomas Schwartz',
-    title: 'Tech Lead',
+    name: 'Gen. Thomas Schwartz (Ret.)',
+    title: 'Global Strategy',
     imgPath: require('../../images/team/thomas.jpg'),
     bio: PLACEHOLDER
   },
   {
+    name: 'Diego Gutierrez',
+    title: 'Blockchain Technology',
+    imgPath: require('../../images/team/diego.jpg'),
+    bio: PLACEHOLDER
+  },
+  {
     name: 'Jim Whitcomb',
-    title: 'Tech Lead',
+    title: 'Finance Advisor',
     imgPath: require('../../images/team/jim.jpg'),
     bio: PLACEHOLDER
   },
   {
     name: 'Aniket Maindarkar',
-    title: 'Tech Lead',
+    title: 'Operations Advisor',
     imgPath: require('../../images/team/aniket.jpg'),
     bio: PLACEHOLDER
   },
   {
     name: 'Brent Reid',
-    title: 'Tech Lead',
+    title: 'Building Construction',
     imgPath: require('../../images/team/brent.jpg'),
     bio: PLACEHOLDER
   },
-  {
-    name: 'Austin Mills',
-    title: 'Tech Lead',
-    imgPath: require('../../images/team/austin.jpg'),
-    bio: PLACEHOLDER
-  },
+  // {
+  //   name: 'Austin Mills',
+  //   title: 'Tech Lead',
+  //   imgPath: require('../../images/team/austin.jpg'),
+  //   bio: PLACEHOLDER
+  // },
 ]
 
 const experts = [
   {
     name: 'Jorden Woods',
-    title: 'Tech Lead',
+    title: 'Enterprise Blockchain',
     imgPath: require('../../images/team/jorden.jpg'),
     bio: PLACEHOLDER
   },
   {
     name: 'Radhika Iyengar-emens',
-    title: 'Tech Lead',
+    title: 'Blockchain Policy',
     imgPath: require('../../images/team/radhika.jpg'),
     bio: PLACEHOLDER
   },

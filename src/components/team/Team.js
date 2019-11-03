@@ -93,7 +93,7 @@ export default function Team() {
     <Div>
       <Header>
         <H1>Management and Operations</H1>
-        <H3>The hand-picked industry experts and seasoned entrepeneurs bringing Augury Square to life</H3>
+        <H3>Our hand-picked industry experts and seasoned entrepeneurs</H3>
       </Header>
       {teamRows.map(TeamMember)}
 

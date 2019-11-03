@@ -56,6 +56,7 @@ const Row = styled.div`
 `
 const Img = styled.div`
  width: 30%;
+ max-width: 20vh;
   @media (max-width: 425px) {
     width: 40%;
     display: block;
@@ -98,6 +99,7 @@ export default function Team() {
 
       <Header>
         <H1>Partners</H1>
+        <H3>Our strategic partners with track records of success </H3>
       </Header>
       {partners.map(TeamMember)}
 
@@ -108,6 +110,7 @@ export default function Team() {
 
       <Header>
         <H1>Industry Experts</H1>
+        <H3>World-class experts with deep domain expertise</H3>
       </Header>
       {experts.map(TeamMember)}
 

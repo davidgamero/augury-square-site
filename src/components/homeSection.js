@@ -129,7 +129,7 @@ const Home = ({ className }) => {
             <Forefront />
 
             {/* Having trouble finding a programmatic way to load the images */}
-            {/* <Team /> */}
+            <Team />
 
             <Typeform />
 

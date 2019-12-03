@@ -50,12 +50,6 @@ const partners = [
     imgPath: require('../../images/team/gab.jpg'),
     bio: BLANK_PLACEHOLDER
   },
-  {
-    name: 'Steven Rothschild',
-    title: 'Strategic Development',
-    imgPath: require('../../images/team/steve.jpg'),
-    bio: BLANK_PLACEHOLDER
-  },
 ]
 
 const advisors = [
@@ -66,21 +60,9 @@ const advisors = [
     bio: BLANK_PLACEHOLDER
   },
   {
-    name: 'Diego Gutierrez',
-    title: 'Blockchain Technology',
-    imgPath: require('../../images/team/diego.jpg'),
-    bio: BLANK_PLACEHOLDER
-  },
-  {
-    name: 'Jim Whitcomb',
-    title: 'Finance Advisor',
-    imgPath: require('../../images/team/jim.jpg'),
-    bio: BLANK_PLACEHOLDER
-  },
-  {
-    name: 'Aniket Maindarkar',
-    title: 'Operations Advisor',
-    imgPath: require('../../images/team/aniket.jpg'),
+    name: 'Steven Rothschild',
+    title: 'Tax Credits, Real Estate Fund Advisor',
+    imgPath: require('../../images/team/steve.jpg'),
     bio: BLANK_PLACEHOLDER
   },
   {
@@ -89,6 +71,24 @@ const advisors = [
     imgPath: require('../../images/team/brent.jpg'),
     bio: BLANK_PLACEHOLDER
   },
+  {
+    name: 'Diego Gutierrez',
+    title: 'Blockchain Technology',
+    imgPath: require('../../images/team/diego.jpg'),
+    bio: BLANK_PLACEHOLDER
+  },
+  {
+    name: 'Aniket Maindarkar',
+    title: 'Operations Advisor',
+    imgPath: require('../../images/team/aniket.jpg'),
+    bio: BLANK_PLACEHOLDER
+  },
+  // {
+  //   name: 'Jim Whitcomb',
+  //   title: 'Finance Advisor',
+  //   imgPath: require('../../images/team/jim.jpg'),
+  //   bio: BLANK_PLACEHOLDER
+  // },
   // {
   //   name: 'Austin Mills',
   //   title: 'Tech Lead',

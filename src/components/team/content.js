@@ -81,7 +81,7 @@ const advisors = [
     name: 'Brent Reid',
     title: 'Building Construction',
     imgPath: require('../../images/team/brent.jpg'),
-    bio: PLACEHOLDER
+    bio: BLANK_PLACEHOLDER
   }
 ]
 

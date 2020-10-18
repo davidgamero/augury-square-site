@@ -78,23 +78,11 @@ const advisors = [
     bio: BLANK_PLACEHOLDER
   },
   {
-    name: 'Aniket Maindarkar',
-    title: 'Operations Advisor',
-    imgPath: require('../../images/team/aniket.jpg'),
-    bio: BLANK_PLACEHOLDER
-  },
-  // {
-  //   name: 'Jim Whitcomb',
-  //   title: 'Finance Advisor',
-  //   imgPath: require('../../images/team/jim.jpg'),
-  //   bio: BLANK_PLACEHOLDER
-  // },
-  // {
-  //   name: 'Austin Mills',
-  //   title: 'Tech Lead',
-  //   imgPath: require('../../images/team/austin.jpg'),
-  //   bio: PLACEHOLDER
-  // },
+    name: 'Brent Reid',
+    title: 'Building Construction',
+    imgPath: require('../../images/team/brent.jpg'),
+    bio: PLACEHOLDER
+  }
 ]
 
 const experts = [

@@ -72,23 +72,11 @@ const advisors = [
     bio: PLACEHOLDER
   },
   {
-    name: 'Aniket Maindarkar',
-    title: 'Operations Advisor',
-    imgPath: require('../../images/team/aniket.jpg'),
-    bio: PLACEHOLDER
-  },
-  {
     name: 'Brent Reid',
     title: 'Building Construction',
     imgPath: require('../../images/team/brent.jpg'),
     bio: PLACEHOLDER
-  },
-  // {
-  //   name: 'Austin Mills',
-  //   title: 'Tech Lead',
-  //   imgPath: require('../../images/team/austin.jpg'),
-  //   bio: PLACEHOLDER
-  // },
+  }
 ]
 
 const experts = [
